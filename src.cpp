@@ -1,10 +1,10 @@
-#include <windows.h>
+ï»¿#include <windows.h>
 #include "exedit.hpp"
 
 #define TRACK_N 2
 ExEdit::Filter ef, tef;
-inline static char name[] = "“ü—Ítest";
-inline static char name2[] = "Œø‰Êtest";
+inline static char name[] = "å…¥åŠ›test";
+inline static char name2[] = "åŠ¹æžœtest";
 inline static char track_name1[] = "Hz";
 inline static char track_name2[] = "vol";
 inline static char* track_name[TRACK_N] = { track_name1, track_name2 };
